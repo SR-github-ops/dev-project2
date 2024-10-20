@@ -9,7 +9,7 @@ RUN apt-get install apache2 -y
 # WORKDIR var/www/html
 
 #copy your files, if you want to copy all use COPY . .
-COPY index.html var/www/html
+COPY index.html var/www/html/
 
 #now start the server
 CMD ["apachectl", "-D", "FOREGROUND"]
