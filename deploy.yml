@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: my-deployment
-        image: dockersonal1/dev-project2
+        image: dockersonal1/dev-project2:latest
         ports:
         - containerPort: 80
